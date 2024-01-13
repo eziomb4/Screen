@@ -1,0 +1,61 @@
+.maincontainer{
+    width: 1280px;
+    height: 800px;
+    box-shadow: 4px 4px 10px 4px;
+    border-radius: 20px;
+    background : linear-gradient(rgb(47, 41, 41),rgb(59, 54, 54));
+}
+#id{
+    width: 700px;
+    height: 300px;
+    border: 1px solid red;
+}
+#videoPlayer{
+    width: 1250px;
+    height: 750px;
+    position: relative;
+    top: 4px;
+    left: 28px;
+}
+#Select{
+    color: white;
+    position: relative;
+    left: 9px;
+    top: 9px;
+}
+#fileselection{
+    position: relative;
+    top: 9px;
+    left: 9px;
+    color: white;
+}
+.nav{
+    background-color: grey;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.forward{
+    width: 40px;
+    height: 35px;
+    background-image: url(Assets/32back.png);
+    background-position-x: 3px;
+    cursor: pointer;
+}
+.backward{
+    width: 40px;
+    height: 30px;  
+    background-image: url(Assets/32for.png);
+    background-position-x: 3px;
+    cursor: pointer;
+}
+.home{
+    width: 40px;
+    height: 30px;
+    background-image: url(Assets/hometr.png);
+    background-position-y: -6px;
+    cursor: pointer;
+}

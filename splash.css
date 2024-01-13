@@ -1,0 +1,173 @@
+.maincontainer{
+   
+    width: 1280px;
+    height: 800px;
+    position: relative;
+    background-color: rgb(14, 33, 48);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: fille 3s ease forwards 4s;
+
+}
+#logo path:nth-child(1){
+ stroke-dasharray: 173.99;
+ stroke-dashoffset: 173.99;
+ animation: lineanim 2s ease forwards;
+}
+#logo path:nth-child(2){
+  stroke-dasharray: 212.13;
+ stroke-dashoffset: 212.13;  
+    animation: lineanim 2s ease forwards 0.3s;
+}
+#logo path:nth-child(3){
+   stroke-dasharray: 173.99;
+ stroke-dashoffset: 173.99; 
+    animation: lineanim 2s ease forwards 0.6s;
+}
+#logo path:nth-child(4){
+  stroke-dasharray: 207.38;
+ stroke-dashoffset: 207.38;  
+    animation: lineanim 2s ease forwards 0.9s;
+}
+#logo path:nth-child(5){
+  stroke-dasharray: 149.68;
+ stroke-dashoffset: 149.68;
+    animation: lineanim 2s ease forwards 1.2s;
+}
+#logo path:nth-child(6){
+   stroke-dasharray: 162.14;
+ stroke-dashoffset: 162.14; 
+    animation: lineanim 2s ease forwards 1.5s;
+}
+#logo path:nth-child(7){
+   stroke-dasharray: 155.93;
+ stroke-dashoffset: 155.93; 
+    animation: lineanim 2s ease forwards 1.8s;
+}
+#logo path:nth-child(8){
+  stroke-dasharray: 173.99;
+ stroke-dashoffset: 173.99; 
+    animation: lineanim 2s ease forwards 2.1s;
+}
+#logo path:nth-child(9){
+   stroke-dasharray: 144.06;
+ stroke-dashoffset: 144.06; 
+    animation: lineanim 2s ease forwards 2.4s;
+}
+#logo path:nth-child(10){
+   stroke-dasharray: 23.12;
+ stroke-dashoffset: 23.12; 
+    animation: lineanim 2s ease forwards 2.7s;
+}
+#logo path:nth-child(11){
+    stroke-dasharray: 135.46;
+  stroke-dashoffset: 135.46; 
+    animation: lineanim 2s ease forwards 3.0s;
+ }
+ #logo path:nth-child(12){
+    stroke-dasharray: 173.99;
+  stroke-dashoffset: 173.99; 
+    animation: lineanim 2s ease forwards 3.3s;
+ }
+ #logo path:nth-child(13){
+    stroke-dasharray: 149.35;
+  stroke-dashoffset: 149.35; 
+    animation: lineanim 2s ease forwards 3.6s;
+ }
+ #logo path:nth-child(14){
+    stroke-dasharray: 155.93;
+  stroke-dashoffset: 155.93; 
+    animation: lineanim 2s ease forwards 3.9s;
+ }
+ #logo path:nth-child(15){
+    stroke-dasharray: 212.13;
+  stroke-dashoffset: 212.13; 
+    animation: lineanim 2s ease forwards 4.2s;
+ }
+ #logo path:nth-child(16){
+    stroke-dasharray: 173.99;
+  stroke-dashoffset: 173.99; 
+    animation: lineanim 2s ease forwards 4.5s;
+ }
+ #logo path:nth-child(17){
+    stroke-dasharray: 207.38;
+  stroke-dashoffset: 207.38; 
+    animation: lineanim 2s ease forwards 4.8s;
+ }
+ #logo path:nth-child(18){
+    stroke-dasharray: 149.68;
+  stroke-dashoffset: 149.68; 
+    animation: lineanim 2s ease forwards 5.1s;
+ }
+ #logo path:nth-child(19){
+    stroke-dasharray: 162.14;
+  stroke-dashoffset: 162.14; 
+    animation: lineanim 2s ease forwards 5.4s;
+ }
+ #logo path:nth-child(20){
+   stroke-dasharray: 155.93;
+ stroke-dashoffset: 155.93; 
+   animation: lineanim 2s ease forwards 5.7s;
+}
+#logo path:nth-child(21){
+   stroke-dasharray: 162.14;
+ stroke-dashoffset: 162.14; 
+   animation: lineanim 2s ease forwards 6.0s;
+}
+#logo path:nth-child(22){
+   stroke-dasharray: 155.93;
+ stroke-dashoffset: 155.93; 
+   animation: lineanim 2s ease forwards 6.0s;
+}
+#logo path:nth-child(23){
+   stroke-dasharray: 173.99;
+ stroke-dashoffset: 173.99; 
+   animation: lineanim 2s ease forwards 6.0s;
+}
+#logo path:nth-child(24){
+   stroke-dasharray: 144.06;
+ stroke-dashoffset: 144.06; 
+   animation: lineanim 2s ease forwards 6.0s;
+}
+#logo path:nth-child(25){
+   stroke-dasharray: 23.12;
+ stroke-dashoffset: 23.12; 
+   animation: lineanim 2s ease forwards 6.0s;
+}
+#logo path:nth-child(26){
+   stroke-dasharray: 135;
+ stroke-dashoffset: 135; 
+   animation: lineanim 2s ease forwards 6.0s;
+}
+
+
+ @keyframes lineanim{
+    to{
+        stroke-dashoffset: 0;
+    }
+ }
+ @keyframes fille{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill : white;   
+    } 
+ }
+
+
+ 

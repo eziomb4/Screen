@@ -1,0 +1,19 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "elec.js",
+  "homepage": "youtube-clone/src/main.tsx",
+  "scripts": {
+    "build" : "main.tsx",
+    "start": "electron ."
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^27.1.0",
+    "electron-packager": "^17.1.2"
+  }
+}

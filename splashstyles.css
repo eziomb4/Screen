@@ -1,0 +1,56 @@
+body{
+    width: 1280px;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    background-color: #2f3542;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+.animated-text span{
+    position: relative;
+}
+.animated-text span::before{
+    content: "Electra";
+    color: #ff7f50;
+    animation: words 10s infinite ;
+}
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #2f3542;
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor .8s infinite, typing 10s steps(14) infinite;
+}
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+@keyframes words{
+ 0%,10%,20%,30%,40%,50%{
+    content: "4.0";
+ }
+ 50%,60%,70%,80%,90%,100%{
+    content: "ELECTRA";
+ }
+}
+@keyframes typing{
+ 10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+    width: 0;
+ }
+ 5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px);
+ }
+}

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Sedgwick+Ave+Display&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.MainContainer{
+    width: 1280px;
+    height: 800px;
+    position: relative;
+    top: -6px;
+    left: -5px;
+    background-color: black;
+}
+#container{
+    width: 1280px;
+    height: 800px;
+    /* position: relative; */
+    top: 90px;
+    background: linear-gradient(rgb(13,148,148),rgb(115,134,120));
+}
+#CarName{
+    color: #232023;
+    position: relative;
+    top: -15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    /* transition: 3s; */
+    /* animation-name: Carname;
+    transition: all 2s ease-in-out; */
+}
+.HeadBorder{
+    border-top: 2px solid white;
+    top: 51px;
+    position: relative;
+}
+#nav{
+    width: 350px;
+    height: 230px;
+    position: relative;
+    top: -293px;
+    left: 424px;
+    background: linear-gradient(rgba(62, 41, 92, 0.437),rgba(32, 63, 81, 0.727));
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px 3px;
+}
+.home{
+    border: none;
+    padding: 32px;
+    background-image: url("Assets/Home\ Button.png");
+    border-radius: 18px;
+    box-shadow: 2px 2px 7px 3px; 
+    position: relative;
+    bottom : -18px;
+    left: 22px;
+    cursor: pointer;
+}
+#navigation{
+    border: none;
+    padding: 32px;
+    background-image: url("Assets/location.png");
+    border-radius: 18px;
+    box-shadow: 2px 2px 7px 3px;
+    position: relative;
+    bottom : 45px;
+    left: 258px; 
+    cursor: pointer;
+}
+.connect{
+    border: none;
+    padding: 32px;
+    background-image: url("Assets/Connect.png");
+    border-radius: 17px;
+    box-shadow: 2px 2px 7px 3px;
+    position: relative;
+    bottom : -7px;
+    left: 18px; 
+}
+.more{
+    border: none;
+    padding: 32px;
+    background-image: url("Assets/menu\(1\).png");
+    border-radius: 18px;
+    box-shadow: 2px 2px 7px 3px;
+    position: relative;
+    bottom : 57px;
+    left: 259px; 
+    cursor: pointer;
+}
+.FootBorder{
+    border-bottom: 2px white solid;
+    display: flex;
+}
+.butcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: rgb(46, 42, 42);
+    /* background: linear-gradient(rgba(32,43,62),rgb(63, 68, 78)); */
+    height: 46px;
+}
+.card{
+    /* color: rgb(103, 11, 54); */
+    background : linear-gradient(rgba(62, 41, 92, 0.437),rgba(32, 63, 81, 0.727));
+    position: relative;
+    display: flex; 
+    left: 31px;
+    box-shadow: 2px 2px 9px 1px;
+    border-radius: 15px;
+    width: 256px;
+    height: 319px; 
+    top: -13px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+     /* border: 2px solid red; */
+}
+.search{
+   color: rgb(48, 168, 168);
+   padding: 10px 10px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: medium;
+   background: none;
+   border: none;
+   box-shadow: 1px 1px 5px 1px;
+   border-radius: 7px; 
+}
+.searchbtn{
+    background : none;
+    position: relative;
+    background-image: url("Assets/search.png");
+    background-repeat: none;
+    padding: 13px 13px;
+    color: azure;
+    border: none;
+    /* box-shadow: 1px 1px 3px 2px; */
+    border-radius: 7px;
+    top: -4px;
+    cursor: pointer;
+}
+.input{
+    background : none;
+    color: whitesmoke;
+    padding: 10px 15px;
+    /* position: relative; */
+    top: -70px;
+    border: 1px solid black;
+    border-radius : 17px;
+}
+.time{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    top: -70px;
+    left: -548px;
+    text-transform: uppercase;
+    color: black;
+}
+.temp{
+    color: white;
+}
+.city{
+    color: whitesmoke;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+/* Backward Button */
+.but-1{
+    background-color: transparent;
+    fill: wheat;
+    border: none;
+    padding: 22px 20px;  
+    background-image: url(Assets/32back.png);
+    background-position-x: 37px;
+    background-position-y: 4px;
+    cursor: pointer;
+    /* transition: 2s; */
+}
+/* Home Button */
+.but-2{
+    background-color: transparent;
+    border: none;
+    padding: 22px 20px; 
+    background-image: url(Assets/hometr.png);
+    background-position-y: -35px; 
+    background-position-x: 1px;
+    cursor: pointer;
+    animation: fadeIn;
+    /* transition: 2s; */
+}
+/* Forward Button */
+.but-3{
+    background-color: transparent;
+    border: none;
+    padding: 22px 20px; 
+    background-image: url(Assets/32for.png);
+    background-position-x: 1px;
+    background-position-y: 4px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    /* transition: 2s; */
+}
